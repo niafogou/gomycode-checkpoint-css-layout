@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(245, 11, 11);
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.like-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.like-btn.liked {
+    color: red;
+}
+
+.remove-btn, .increase-btn, .decrease-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.quantity {
+    font-weight: bold;
+}
